@@ -78,9 +78,23 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Configure your AI service
+### 4. Get Your Google Gemini API Key
 
-Follow the setup instructions for the actual AI provider used by the project. Configure any required API key securely using environment variables.
+PyTalk AI uses the Google Gemini API to generate AI-powered responses.
+
+Step 1: Get your API key
+
+Visit the Google AI Studio.
+
+Sign in with your Google account.
+
+Open the API key page.
+
+Create an API key.
+
+Copy the key and keep it private.
+
+Replace your_api_key_here with your actual Gemini API key.
 
 ### 5. Run the chatbot
 
